@@ -1,0 +1,167 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+::-webkit-scrollbar { 
+    display: none; 
+}
+
+html, body{
+  overflow-x: hidden;
+  height: 100%;
+  -webkit-overflow-scrolling: touch;
+}
+
+html{
+  font-size: 1em;
+  -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: #ffffff;
+  color: $text-body;
+  font-family: $basefont;
+  font-weight: normal;
+  min-height: 100%;
+  overflow-x: hidden;
+  position: relative;
+  margin: 0;
+}
+
+p {
+  font-weight: normal;
+  font-size: $font-size-large;
+  line-height: 1.8;
+}
+
+img {
+  max-width: 100%;
+}
+
+strong {
+  font-weight: 600;
+}
+
+ul {
+  margin-bottom: 1em;
+}
+
+li {
+  list-style: none;
+  margin-bottom: .5em;
+}
+
+pre {
+  margin-bottom: 2em !important;
+}
+
+h1, h2, h3, h4 {
+  margin: 0;
+  font-family: $basefont;
+  font-weight: inherit;
+  line-height: 1.2;
+  color: $darkgray;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: $h1;
+}
+h2 {font-size: $h2;}
+h3 {font-size: $h3;}
+h4 {font-size: $h4;color: $darkgray;}
+small, .font_small {font-size: 0.75em;}
+p {margin-bottom: 1.3em;}
+
+a {
+  text-decoration:none;
+  border-bottom: 2px solid $bmi-yellow;
+  box-shadow: inset 0 0 0 $bmi-yellow;
+  color: inherit;
+  transition: background 0.4s cubic-bezier(.33,.66,.66,1);
+  
+  &:hover{
+    background: $bmi-yellow;
+    color: $white;
+  }
+}
+
+ol li{
+  list-style-type:decimal;
+}
+ul li{
+  list-style-type:disc
+}
+nav ul li{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+blockquote{
+  border-left: 5px solid $lightgray;
+  margin: 0;
+  padding-left: 20px;
+}
+
+hr{
+  border-top: 1px solid $darkgray;
+}
+
+.container{
+  width: $container-maxwidth;
+  max-width: 92%;
+  margin: 0 auto;
+  display: flex;
+}
+
+a.btn{
+  padding: 5px 0;
+  text-align: center;
+  border-radius: 25px;
+  width: 120px;
+  display: flex;
+  font-size: 13px!important;
+  justify-content: center;
+}
+
+a.yellow{
+  background-color: $white;
+  color: $white!important;
+  
+  &:hover{
+    background-color: #043F6F!important;
+  }
+}
+
+@-webkit-keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    -webkit-transform: translate3d(0, 10%, 0);
+    transform: translate3d(0, 10%, 0);
+  }
+
+  to {
+    opacity: 1;
+    -webkit-transform: none;
+    transform: none;
+  }
+}
+

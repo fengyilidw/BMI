@@ -1,0 +1,328 @@
+/*"index.html"- Home Page 
+              - Nav: Aout Program Page
+              - Topic: What is BMI? | Our History | Alumni & Student Success | Apply 
+              - Start*/
+*,*::after,*::before{box-sizing:border-box}::-webkit-scrollbar{display:none}html,body{overflow-x:hidden;height:100%;-webkit-overflow-scrolling:touch}html{font-size:1em;-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}body{background-color:#ffffff;color:#555;font-family:"Roboto",sans-serif;font-weight:normal;min-height:100%;overflow-x:hidden;position:relative;margin:0}p{font-weight:normal;font-size:16px;line-height:1.8}img{max-width:100%}strong{font-weight:600}ul{margin-bottom:1em}li{list-style:none;margin-bottom:.5em}pre{margin-bottom:2em !important}h1,h2,h3,h4{margin:0;font-family:"Roboto",sans-serif;font-weight:inherit;line-height:1.2;color:#333}h1{margin-top:0;font-size:3.157em}h2{font-size:2.369em}h3{font-size:1.777em}h4{font-size:1.333em;color:#333}small,.font_small{font-size:0.75em}p{margin-bottom:1.3em}a{text-decoration:none;border-bottom:2px solid #CC9744;box-shadow:inset 0 0 0 #CC9744;color:inherit;-webkit-transition:background 0.4s cubic-bezier(0.33, 0.66, 0.66, 1);transition:background 0.4s cubic-bezier(0.33, 0.66, 0.66, 1)}a:hover{background:#CC9744;color:#fff}ol li{list-style-type:decimal}ul li{list-style-type:disc}nav ul li{list-style:none;padding:0;margin:0}blockquote{border-left:5px solid #999;margin:0;padding-left:20px}hr{border-top:1px solid #333}.container{width:1200px;max-width:92%;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex}a.btn{padding:5px 0;text-align:center;border-radius:25px;width:120px;display:-webkit-box;display:-ms-flexbox;display:flex;font-size:13px !important;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}a.yellow{background-color:#fff;color:#fff !important}a.yellow:hover{background-color:#043F6F !important}@-webkit-keyframes fadeInUp{from{opacity:0;-webkit-transform:translate3d(0, 10%, 0);transform:translate3d(0, 10%, 0)}to{opacity:1;-webkit-transform:none;transform:none}}@keyframes fadeInUp{from{opacity:0;-webkit-transform:translate3d(0, 10%, 0);transform:translate3d(0, 10%, 0)}to{opacity:1;-webkit-transform:none;transform:none}}.bmi-header{background-color:#CC9744;padding-top:20px;padding-bottom:20px}.bmi-header .logo a{display:block}.bmi-header a{border-bottom:none;box-shadow:none;color:#333;font-size:16px;font-weight:500;word-spacing:9999px}.bmi-header a:hover{background:none;color:inherit}.bmi-header .bmi-nav ul{margin:0;padding:0;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.bmi-header .bmi-nav ul li{margin:0;position:relative}.bmi-header .bmi-nav ul li a{display:-webkit-box;display:-ms-flexbox;display:flex;padding:6px 0;position:relative;z-index:0;cursor:pointer;color:#fff;margin-left:40px}.bmi-header .bmi-nav ul li a:hover{color:#fff}.bmi-header .bmi-nav ul li a:before{position:absolute;left:0px;width:100%;height:2px;background:#fff;content:"";opacity:0;-webkit-transition:all 0.25s;transition:all 0.25s}.bmi-header .bmi-nav ul li a:before{top:0px;-webkit-transform:translateY(10px);transform:translateY(10px)}.bmi-header .bmi-nav ul li a:hover:before{opacity:1;-webkit-transform:translateY(0px);transform:translateY(0px)}.bmi-header .bmi-nav ul li:hover ul{display:block}.bmi-header .container{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-ms-flex-line-pack:center;align-content:center;-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bmi-header .container .logo{-webkit-box-flex:1;-ms-flex:1 1 20%;flex:1 1 20%}.bmi-header .container .bmi-nav{-webkit-box-flex:1;-ms-flex:1 1 80%;flex:1 1 80%}.bmi-header .bmi-nav ul li.current-menu-item>a{color:#fff}.bmi-header .bmi-nav ul li.current-menu-item>a:before{position:absolute;left:0px;width:100%;height:2px;background:#fff;content:"";opacity:1;top:0px;-webkit-transform:translateY(0px);transform:translateY(0px);-webkit-transition:all 0.25s;transition:all 0.25s}.pushy{position:fixed;width:280px;height:100%;top:0;z-index:9999;background:#333;overflow:auto;overflow-y:scroll;visibility:hidden;-webkit-overflow-scrolling:touch;display:none}.pushy ul{margin:0;padding:0}.pushy ul li{margin-bottom:8px}.menu-btn{display:none;cursor:pointer}.menu-btn span{font-size:16px;color:#fff;text-transform:uppercase;font-weight:600;padding-left:15px}.hamburger menu{position:absolute;top:0;left:0;right:0;bottom:0;margin:auto;height:16px;cursor:pointer}.bar,.bar:after,.bar:before{height:2px}.bar{position:relative;background:#fff;width:16px}.bar:before{content:"";position:absolute;left:0;bottom:7px;background:#fff;width:26px}.bar:after{content:"";position:absolute;left:0;top:7px;background:#fff;width:22px}.pushy a{display:block;color:#fff;padding:3px 15px;text-decoration:none;outline:0;border-bottom:none;font-size:15px;font-weight:600;text-shadow:1px 1px 1px rgba(0,0,0,0.6)}.pushy a:hover{color:#CC9744;background:none}.pushy ul:first-child{margin-top:32px}.pushy.pushy-left{left:0}.pushy.pushy-right{right:0}.pushy-left{-webkit-transform:translate3d(-280px, 0, 0);transform:translate3d(-280px, 0, 0)}.pushy-open-left .push{-webkit-transform:translate3d(280px, 0, 0);transform:translate3d(280px, 0, 0)}.pushy-right{-webkit-transform:translate3d(280px, 0, 0);transform:translate3d(280px, 0, 0)}.pushy-open-right .push{-webkit-transform:translate3d(-280px, 0, 0);transform:translate3d(-280px, 0, 0)}.pushy-open-left .pushy,.pushy-open-right .pushy{-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0)}.pushy,.push{-webkit-transition:-webkit-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);transition:-webkit-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);transition:transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99);transition:transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99), -webkit-transform 0.2s cubic-bezier(0.16, 0.68, 0.43, 0.99)}.site-overlay{display:none}.pushy-open-left .site-overlay,.pushy-open-right .site-overlay{display:block;position:fixed;top:0;right:0;bottom:0;left:0;z-index:9998;background-color:rgba(0,0,0,0.6);-webkit-animation:fade 500ms;animation:fade 500ms}@keyframes fade{0%{opacity:0}100%{opacity:1}}@-webkit-keyframes fade{0%{opacity:0}100%{opacity:1}}.bmi-main{background:#fff;padding:30px 0}.bmi-hero{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background-image:url("images/header-bg.jpg");background-position:center center;background-size:cover;min-height:650px;color:#ffffff;position:relative;z-index:-3;-webkit-box-align:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center}.bmi-hero .boxed{margin:0 auto;border:3px solid #CC9744;max-width:930px;padding:30px;font-size:1.75em;text-align:center;margin-top:275px;background:rgba(120,81,18,0.7)}
+/*"index.html"- End*/
+
+
+
+
+
+
+
+
+
+
+
+/*All Pages "Topic Background Images"-Top images-Start*/
+
+ /*"rme.html"- Nav: Stem/Research Experience Page  
+             - Topic: Research Mixer Event | Students signing up for Research Opportunities 
+             - Start*/
+.bmi-rme{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background-image:url("images/header-rme1.jpg");background-position:center center;background-size:cover;min-height:650px;color:#ffffff;position:relative;z-index:-3;-webkit-box-align:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-bottom:35px;}.bmi-rme .boxed{margin:0 auto;border:3px solid #CC9744;max-width:930px;padding:30px;font-size:1.75em;text-align:center;margin-top:275px;background:rgba(120,81,18,0.7)}
+ /*"rme.html"- End*/
+
+
+
+/*"bcw.html"- Nav:
+            - Topic: Breast Cancer Walk | BMI Club Meetings | Annual CUNY BMI Conferences 
+            - Start*/
+.bmi-bcw{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background-image:url("images/breast-cancer-walk/Breast Cancer Walk - Handing Over Funds.png");background-position:center center;background-size:cover;min-height:650px;color:#ffffff;position:relative;z-index:-3;-webkit-box-align:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-bottom:35px;}.bmi-bcw .boxed{margin:0 auto;border:3px solid #CC9744;max-width:930px;padding:30px;font-size:1.75em;text-align:center;margin-top:200px;background:rgba(120,81,18,0.7)}
+/*"bcw.html"- End*/
+
+
+
+/*"s&a.html"- Nav:
+            - Topic: Scholarships and Awards | Students Achievement
+            - Start*/
+.bmi-saa{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background-image:url("images/stellar-scholars/Tevin Harris(2019-2020)b.jpg");background-position:center center;background-size:cover;min-height:650px;color:#ffffff;position:relative;z-index:-3;-webkit-box-align:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-bottom:35px;}.bmi-saa .boxed{margin:0 auto;border:3px solid #CC9744;max-width:930px;padding:30px;font-size:1.75em;text-align:center;margin-top:240px;background:rgba(120,81,18,0.7)}
+/*"s&a.html"- End*/
+
+
+
+/*"corp.html"- Nav:
+             - Topic: Community Out Reach Programs: | PS Schools; High Schools
+             - Start*/
+.bmi-corp{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background-image:url("images/need-image.jpg");background-position:center center;background-size:cover;min-height:650px;color:#ffffff;position:relative;z-index:-3;-webkit-box-align:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-bottom:35px;}.bmi-corp .boxed{margin:0 auto;border:3px solid #CC9744;max-width:930px;padding:30px;font-size:1.75em;text-align:center;margin-top:240px;background:rgba(120,81,18,0.7)}
+/*"corp.html"- End*/
+
+
+
+/*"g&ac.html"- Nav:
+             - Topic: Graduation and Awards Ceremony/Celebrations | Valedictorian and Salutatorian
+             - Start*/
+.bmi-gaac{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background-image:url("images/CityTech-Graduation-June-2018-invitation-to-collaborate/IMG_3503black.jpg");background-position:center center;background-size:cover;min-height:650px;color:#ffffff;position:relative;z-index:-3;-webkit-box-align:center;-ms-flex-align:center;-ms-grid-row-align:center;align-items:center;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;margin-bottom:35px;}.bmi-gaac .boxed{margin:0 auto;border:3px solid #CC9744;max-width:930px;padding:30px;font-size:1.75em;text-align:center;margin-top:240px;background:rgba(120,81,18,0.7)}
+/*"g&ac.html"- End*/
+
+/*All "Topic Background Images"-Top images-End*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*Adornment- "Lines"-Start*/
+
+/*"bcw.html"- Nav:
+             - Topic: Breast Cancer Walk | BMI Club Meetings | Annual CUNY BMI Conferences
+                Category: Adornment- Lines
+             - Start*/
+.triangle-bottom{position: relative;}
+
+.triangle-bottom:after {content: '';height: 10px;position: absolute;top: 0px;left: 0;right: 0;background: url("images/triangle_bg.png") repeat-x;background-size: 26px 10px;transform: rotate(180deg); -webkit-transform: rotate(180deg);}
+
+.triangle-up:after {content: '';height: 10px;position: absolute;bottom: 0px;left: 0;right: 0;background: url("images/triangle_bg.png") repeat-x;background-size: 26px 10px;}
+.pos-top{ position: absolute; top: 0; left: 0; right: 0;  }
+.pos-bottom{ position: absolute; bottom: 0; left: 0; right: 0; }
+
+.curve {background: url("images/curve_line.png") repeat-x top left;}
+
+
+
+/*"bcw.html"- Nav:
+             - Topic: Breast Cancer Walk | BMI Club Meetings | Annual CUNY BMI Conferences
+             - Section: ANNUAL CUNY BMI CONFERENCES:-Conference 2017 | Conference 2017 | Conference 2019           | Conference 2019
+
+/* Create four equal columns that floats next to each other */
+.column-4 {float: left;width: 25%;padding: 10px;height: 370px; /* Should be removed. Only for demonstration */}
+
+/* Clear floats after the columns */
+.row-2:after {content: "";display: table;clear: both;}
+
+.row-2 .column-4 .c-3{padding-top: 10px;}
+/*"bcw.html"- End*/ 
+/*Adornment- "Lines"-End*/
+
+
+
+
+
+
+
+
+
+
+
+
+/*"index.html"- Home Page 
+              - Nav: Aout Program Page
+              - Topic: What is BMI? | Our History | Alumni & Student Success | Apply 
+              - Start*/
+.bmi-values{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between}.bmi-values h2{font-weight:700}.bmi-values .goal,.bmi-values .mission,.bmi-values .vision{-webkit-box-flex:1;-ms-flex:1;flex:1;padding:0 40px;text-align:center}.bmi-values .goal .icon,.bmi-values .mission .icon,.bmi-values .vision .icon{width:110px;height:110px;position:relative;background:#CC9744;-webkit-transform:rotate(45deg);transform:rotate(45deg);margin:-85px auto 55px}.bmi-values .goal .icon img,.bmi-values .mission .icon img,.bmi-values .vision .icon img{position:absolute;left:50%;top:50%;-webkit-transform:rotate(-45deg) translate(0, -65%);transform:rotate(-45deg) translate(0, -65%)}.quote{display:-webkit-box;display:-ms-flexbox;display:flex;max-width:100%;background:#EFEFEF;padding:50px 0;text-align:center;margin:30px auto}.quote p{width:885px;max-width:80%;margin:0 auto;font-size:1.25em;line-height:30px;color:#222}
+/*"index.html"- End*/
+
+
+
+
+.icon1 {
+  position: absolute;
+  top: 50%;
+  right: 20px;
+  font-size: 18px;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+
+
+ /*"rme.html"- Nav: Stem/Research Experience Page  
+             - Topic: Research Mixer Event | Students signing up for Research Opportunities 
+             - Category: STUDENTS SEEKING INFORMATION ABOUT RESEARCH OPPORTUNITIES:-Dr. Reginald Blake |             Dr. Janet Liou-Mark
+             - Start*/
+.research{background-image:url("images/header-rme2.jpg");background-position:center center;background-size:cover;min-height:530px;text-align: center;padding-top: 170px; 
+margin-bottom:30px;}.research p{width:885px;max-width:80%;margin:0 auto;font-size:1.25em;line-height:30px;color:white;padding-top: 20px;}
+ /*"rme.html"- End*/
+
+
+
+
+
+/*"corp.html"- Nav: 
+             - Topic: Community Out Reach Programs: | PS Schools; High Schools 
+             - Category: (Note: information will be provided.)
+             - Start*/
+/*"s&a.html"- Nav: 
+            - Topic: Scholarships and Awards | Students Achievement 
+            - Section 1: FULBRIGHT SCHOLAR AWARDS, TEACHERS AS LEADERS AWARDS
+            - Section 2: STUDENTS ACHIEVEMENT
+            - Start*/
+.note{text-align: center;
+      padding-bottom: 100px;
+      font-size: 25px;
+      color: red;}
+/*"corp.html"- End*/
+/*"s&a.html"- End*/
+
+
+
+
+/*"s&a.html"- Nav: 
+            - Topic: Scholarships and Awards | Students Achievement 
+            - Section: STUDENTS ACHIEVEMENT
+            - Start*/
+.note2{text-align: center;
+      font-size: 25px;
+      color: black;}
+/*"s&a.html"- End*/
+
+
+
+
+
+
+
+
+
+/*All Page "Title" - Dark Red (First Letter),Ogrange (Next Letters)*/
+
+/*"bcw.html, g&ac.html, index.html, rme.html, s&a.html" 
+            - Topic 1: Breast Cancer Walk | BMI Club Meetings | Annual Cuny BMI Conferences 
+            - Topic 2: Graduation and Awards Ceremony | Celebrations Valedictorian and Salutatorian 
+            - Topic 3: What is BMI? | Our History | Alumni & Student Success | Apply 
+            - Topic 4: Research Mixer Event | Students signing up for Research Opportunities 
+            - Topic 5: Scholarships and Awards | Students Achievement 
+            - Title 1: (1)Breast Cancer Walk 
+                         (2)BMI Club Meetings – Large groups 
+                         (3)Annual CUNY BMI Conferences: 
+            - Title 2: CityTech Graduation June 2018 - Invitation to collaborate
+            - Title 3: (1)BMI's Mentoring Program
+                         (2)Our History
+            - Title 4: (1)Students seeking information about Research Opportunities:
+                         (2)Pictures:Research Mixer Event.
+            - Title 5: (1)CUNY BMI Stellar Scholars
+                         (2)Fulbright Scholar Awards,  Teachers as Leaders Awards
+                         (3)Students Achievement 
+            - Start*/
+.bmi-content{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.bmi-content .bmi-head-title{text-transform:uppercase;color:#CC9744;font-weight:700;font-size:40px;text-align:center;padding-bottom:35px}.bmi-content .bmi-head-title span{color:#5c1c2f}
+/*"bcw.html, g&ac.html, index.html, rme.html, s&a.html" - End*/
+
+
+/*"bcw.html"- Nav: 
+            - Topic: Breast Cancer Walk | BMI Club Meetings | Annual Cuny BMI Conferences
+            - Title: Annual </span>  CUNY BMI Conferences:
+            - Start*/
+.annual-cuny-bmi-conferences{text-transform:uppercase;color:#CC9744;font-weight:700;font-size:40px;text-align:center;padding-bottom:35px;margin-top: 35px;}.annual-cuny-bmi-conferences span{color:#5c1c2f}
+
+/*"bcw.html"- Title: BMI</span> Club Meetings – Large groups*/
+.bmi-club-meetings{text-transform:uppercase;color:#CC9744;font-weight:700;font-size:40px;text-align:center;padding-bottom:35px;margin-top: 35px;}.bmi-club-meetings span{color:#5c1c2f}
+/*"bcw.html"- End*/
+
+
+
+
+
+
+
+
+/*"index.html"- Home Page 
+              - Nav: Aout Program 
+              - Topic: What is BMI? | Our History | Alumni & Student Success | Apply 
+              - Section: BMI'S MENTORING PROGRAM-Faculty Mentoring | City Tech Community Mentoring | Peer            Mentoring 
+              - Start*/
+.mentoring-slides{width:100%;min-height:530px;margin-bottom:35px}.mentoring-slides .mentoringSlide-1{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background:url("images/mentoring-program/Faculty-Mentoring-BMI-Activities.jpg") no-repeat center center;background-size:cover;min-height:530px}.mentoring-slides .mentoringSlide-2{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background:url("images/mentoring-program/Community-Mentoring-BMI-Activities.jpg") no-repeat center center;background-size:cover;min-height:530px}.mentoring-slides .mentoringSlide-3{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background:url("images/mentoring-program/Peer-Mentoring-BMI-Office-and-Study-Room.jpg") no-repeat center center;background-size:cover;min-height:530px}
+/*"index.html"- End*/
+
+
+
+
+/*"s&a.html"- Nav: 
+            - Topic: Scholarships and Awards | Students Achievement 
+            - Section: CUNY BMI STELLAR SCHOLARS-Our 2016-2017 City Tech BMI students | Our 2017-2018   
+                       City Tech BMI students | Our 2019-2020 City Tech BMI students
+            - Start*/
+.mentoring-slides2{width:100%;min-height:530px;margin-bottom:35px}.mentoring-slides2 .mentoringSlide-4{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background:url("images/stellar-scholars/FRANCOIS J. MERTIL(2016-2017)b.jpg") no-repeat center center;background-size:cover;min-height:530px}.mentoring-slides2 .mentoringSlide-5{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background:url("images/stellar-scholars/Jawad Rashid(2017-2018)b2.jpg") no-repeat center center;background-size:cover;min-height:530px}.mentoring-slides2 .mentoringSlide-6{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background:url("images/stellar-scholars/Cherishe Cumma(2019-2020)b.jpg") no-repeat center center;background-size:cover;min-height:530px}
+/*"s&a.html"- End*/
+
+
+
+
+/*"bcw.html"- Nav: 
+            - Topic: Breast Cancer Walk | BMI Club Meetings | Annual Cuny BMI Conferences
+            - Section: BREAST CANCER WALK 
+            - Start*/
+.mentoring-slides3{width:100%;min-height:530px;margin-bottom:35px}.mentoring-slides3 .mentoringSlide-7{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background:url("images/breast-cancer-walk/BMI Meeting.jpg") no-repeat center center;background-size:cover;min-height:540px;}.mentoring-slides3 .mentoringSlide-8{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background:url("images/breast-cancer-walk/BMI Meeting - Visit - CUNY BMI Director.jpg") no-repeat center center;background-size:cover;min-height:600px}.mentoring-slides3 .mentoringSlide-9{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background:url("images/breast-cancer-walk/Visit CUNY BMI Director.jpg") no-repeat center center;background-size:cover;min-height:400px}.mentoring-slides3 .mentoringSlide-10{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;background:url("images/breast-cancer-walk/Research Team.jpg") no-repeat center center;background-size:cover;min-height:670px}
+/*"bcw.html"- End*/
+
+
+
+
+
+/*"index.html"- Home Page 
+              - Nav: Aout Program Page
+              - Topic: What is BMI? | Our History | Alumni & Student Success | Apply 
+              - Section: BMI'S MENTORING PROGRAM-Faculty Mentoring | City Tech Community Mentoring | Peer            Mentoring 
+              - Start*/
+.mentoring-slides .slide-container{position:relative;width:1200px;max-width:92%;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.mentoring-slides .slide-container h2{color:#fff;font-weight:700;padding-top:30px;margin-bottom:120px;-ms-flex-item-align:center;align-self:center;text-align:center}.mentoring-slides .items{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline}.mentoring-slides .items .item{-webkit-box-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.mentoring-slides .items .item p{font-weight:500}.mentoring-slides .items .item .icon{width:110px;height:110px;position:relative;border:3px solid #CC9744;background:rgba(204,151,68,0.1);margin-bottom:30px;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.mentoring-slides .items .item .icon img{position:absolute;left:50%;top:50%;-webkit-transform:rotate(-45deg) translate(0, -65%);transform:rotate(-45deg) translate(0, -65%)}
+/*"index.html"- End*/
+
+
+
+
+/*"s&a.html"- Nav:
+            - Topic: Breast Cancer Walk | BMI Club Meetings  | Annual Cuny BMI Conferences
+            - Section: CUNY BMI STELLAR SCHOLARS-Our 2016-2017 City Tech BMI students 
+            - Start*/
+.mentoring-slides2 .slide-container{position:relative;width:1200px;max-width:92%;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.mentoring-slides2 .slide-container h2{color:#fff;font-weight:700;padding-top:30px;margin-bottom:120px;-ms-flex-item-align:center;align-self:center;text-align:center}.mentoring-slides2 .items{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline}.mentoring-slides2 .items .item{-webkit-box-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.mentoring-slides .items .item p{font-weight:500}.mentoring-slides2 .items .item .icon{width:110px;height:110px;position:relative; border:3px solid #CC9744;background:rgba(204,151,68,0.1);margin-bottom:30px;-webkit-transform:rotate(45deg);transform:rotate(45deg)}.mentoring-slides2 .items .item .icon img{position:absolute;left:50%;top:50%;-webkit-transform:rotate(-45deg) translate(0, -65%);transform:rotate(-45deg) translate(0, -65%)}
+/*"s&a.html"- End*/
+
+
+
+
+/*"bcw.html"- Nav:
+            - Topic: Breast Cancer Walk | BMI Club Meetings | Annual Cuny BMI Conferences
+            - Section: BREAST CANCER WALK 
+            - Start*/
+.mentoring-slides3 .slide-container{position:relative;width:1200px;max-width:92%;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.mentoring-slides3 .slide-container h2{color:#fff;font-weight:700;padding-top:385px;margin-bottom:-20px;-ms-flex-item-align:center;align-self:center;text-align:center}
+.mentoring-slides3 .items{display:-webkit-box;display:-ms-flexbox;display:flex;-ms-flex-pack:distribute;justify-content:space-around;-webkit-box-align:baseline;-ms-flex-align:baseline;align-items:baseline}.mentoring-slides3 .items .item{-webkit-box-flex:1;-ms-flex:1;flex:1;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.mentoring-slides .items .item p{font-weight:500}.mentoring-slides3 .items .item .icon{width:110px;height:110px;position:relative;
+margin-bottom:30px;-webkit-transform:rotate(45deg);transform:rotate(45deg)}
+.mentoring-slides3 .items .item .icon img{position:absolute;left:50%;top:50%;-webkit-transform:rotate(-45deg) translate(0, -65%);transform:rotate(-45deg) translate(0, -65%)}
+/*"bcw.html"- End*/
+
+
+
+
+
+/*"g&ac.html"- Nav:
+             - Topic: Graduation and Awards Ceremony | Celebrations Valedictorian and Salutatorian
+             - Section: CityTech Graduation June 2018 - Invitation to collaborate" (Lightbox) 
+                Category: Lightbox 
+             - Start*/
+.bmi-ctg{background:#fff;padding:20px 0}.etgig{display:-webkit-box;display:-ms-flexbox;display:flex;max-width:100%;background:#EFEFEF;padding:50px 0;text-align:center;margin:30px auto}.etgig p{width:885px;max-width:80%;margin:0 auto;font-size:1.75em;line-height:30px;color:#222}
+
+.etgimagegallery{font-size: 30px;text-align: center;}
+.row > .column {padding: 0 6px 12px;}.row:after {content: "";display: table;clear: both;}.CTG{display: block;margin-left: auto;margin-right: auto;}div.desc {padding: 15px;text-align: center;}div.gallery { border: 1px solid #ccc;}div.gallery:hover {border: 1px solid #777;}.column {float: left;width: 25%;padding: 0 6px 12px;}
+/*Responsive Image Gallery-Resize the browser window to see the effect.*/
+@media only screen and (max-width: 700px) {.column {width: 49.99999%;margin: 6px 0;}}
+@media only screen and (max-width: 500px) {.column {width: 100%;}}
+@media only screen and (max-width: 700px) {.CTGvideo {width: 70%;margin: 6px 0;}}
+@media only screen and (max-width: 500px) {.CTGvideo {width: 100%;}}
+.clearfix:after {content: "";display: table;clear: both;}
+/* The Modal (background) */.modal {display: none;position: fixed;z-index: 1;padding-top: 100px;left: 0;top: 0;width: 100%;height: 100%;overflow: auto;background-color: black;}/* Modal Content */.modal-content {position: relative;background-color: #fefefe;margin: auto;padding: 0;width: 90%;max-width: 1200px;}/* The Close Button */.close {color: white;position: absolute;top: 10px;right: 25px;font-size: 35px;font-weight: bold;}.close:hover,.close:focus {color: #999;text-decoration: none;cursor: pointer;}.mySlides {background:black;display: none;}.cursor {cursor: pointer;}/* Next & previous buttons-background:rgba(120,81,18,0.7); */.prev,.next {cursor: pointer;position: absolute;top: 50%;width: auto;padding: 16px;margin-top: -50px;color: white;font-weight: bold;font-size:20px;transition: 0.6s ease;border-radius: 0 3px 3px 0;user-select: none;-webkit-user-select: none;}/* Position the "next button" to the right */.next {right: 0;border-radius: 3px 0 0 3px;}/* On hover, add a black background color with a little bit see-through */.prev:hover,.next:hover {background-color: rgba(0, 0, 0, 0.8);}/* Number text (1/3 etc) */.numbertext {color: #f2f2f2;font-size: 12px;padding: 8px 12px;position: absolute;top: 0;}img {margin-bottom: -4px;}.caption-container {text-align: center;background-color: black;padding: 2px 16px;color: white;}.demo {opacity: 0.6;}.active,.demo:hover {opacity: 1;}img.hover-shadow {transition: 0.3s;}.hover-shadow:hover {box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);}
+/*"g&ac.html"
+             - Section: CityTech Graduation June 2018 - Invitation to collaborate" (Lightbox) 
+                Category: Video 
+             - Start*/
+.CTGvideo{display: block;margin-left: auto;margin-right: auto; background: white; padding-bottom:10px;}
+
+/*"g&ac.html"- End*/
+
+
+
+
+
+
+
+/*"index.html"- Home Page 
+              - Nav: Aout Program Page
+              - Topic: What is BMI? | Our History | Alumni & Student Success | Apply 
+              - Start*/
+.bmi-history{background:#CC9744;color:#fff;padding:60px 0}.row{width:100%;margin:0 0 -5px;padding:0}.row .container{width:1200px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-box-orient:horizontal;-webkit-box-direction:normal;-ms-flex-direction:row;flex-direction:row}.row .container .content{-webkit-box-flex:1;-ms-flex:1 1 50%;flex:1 1 50%}.row .container .text{-webkit-box-flex:1;-ms-flex:1 1 50%;flex:1 1 50%;padding:0 60px;display:-webkit-box;display:-ms-flexbox;display:flex}.row .container .text h5{font-size:28px;font-weight:700;margin:0;color:#CC9744;padding-left:10px;border-left:5px solid #CC9744}.row .container .text div{-ms-flex-item-align:center;align-self:center}.row-reverse{width:100%;margin:0 0 -4px;padding:0}.row-reverse .container{width:1200px;margin:0 auto;display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-align:stretch;-ms-flex-align:stretch;align-items:stretch;-webkit-box-orient:horizontal;-webkit-box-direction:reverse;-ms-flex-direction:row-reverse;flex-direction:row-reverse;padding:0}.row-reverse .container .content{-webkit-box-flex:1;-ms-flex:1 1 50%;flex:1 1 50%;color:#fff;padding:0;margin:0}.row-reverse .container .text{-webkit-box-flex:1;-ms-flex:1 1 50%;flex:1 1 50%;padding:0 60px;background:#CC9744;display:-webkit-box;display:-ms-flexbox;display:flex}.row-reverse .container .text h5{font-size:28px;font-weight:700;margin:0;color:#fff;padding-left:10px;border-left:5px solid #fff}.row-reverse .container .text div{-ms-flex-item-align:center;align-self:center}.main-content{-webkit-box-flex:1;-ms-flex:1 1 75%;flex:1 1 75%;padding-right:40px}.main-content h4{padding-bottom:22px}.main-content h4 img{margin-bottom:-2px}.bmi-footer{background-color:#f7f7f7;padding-bottom:30px;padding-top:30px;display:-webkit-box;display:-ms-flexbox;display:flex}.bmi-footer p{font-size:14px;line-height:1.5;margin:0}@media screen and (max-width: 849px){.slider{padding-top:30px}.menu-btn{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-flex:1;-ms-flex:1 1 20%;flex:1 1 20%;-webkit-box-pack:end;-ms-flex-pack:end;justify-content:flex-end;-webkit-box-align:center;-ms-flex-align:center;align-items:center}.bmi-header .container .search{display:none}.pushy{display:block}.has-dropdown ul{margin-left:15px;margin-top:10px;border-left:1px solid #ffffff}.has-dropdown ul .pushy-link{-webkit-transition:opacity 0.2s ease-in-out;transition:opacity 0.2s ease-in-out}.has-dropdown>a{position:relative;color:#fff}.has-dropdown>a::after{content:'';display:block;height:11px;width:8px;position:absolute;top:50%;right:15px;background:url("images/arrow.svg") no-repeat;-webkit-transform:translateY(-50%);transform:translateY(-50%);-webkit-transition:-webkit-transform 0.2s;transition:-webkit-transform 0.2s;transition:transform 0.2s;transition:transform 0.2s, -webkit-transform 0.2s}.has-dropdown-closed ul{max-height:0;overflow:hidden}.has-dropdown-closed .pushy-link{opacity:0}.has-dropdown ul li{position:relative}.has-dropdown ul li:before{content:"";display:block;width:10px;height:1px;background:#ffffff;position:absolute;top:50%;left:0}.has-dropdown ul li a{font-weight:normal;padding:5px 0 5px 15px}.has-dropdown-open ul{max-height:1000px}.has-dropdown-open .pushy-link{opacity:1}.has-dropdown-open a::after{-webkit-transform:translateY(-50%) rotate(90deg);transform:translateY(-50%) rotate(90deg)}.no-csstransforms3d .has-dropdown-closed ul{max-height:none;display:none}}@media (max-width: 768px){.bmi-header .container .search{display:none}.bmi-header .bmi-nav ul{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;margin-top:0;margin-bottom:0}.bmi-header .bmi-nav ul li{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%}.bmi-header .bmi-nav ul li a{padding:6px 0}.bmi-header .bmi-nav ul li a:before{display:none}.bmi-hero{min-height:400px}.bmi-hero .boxed{margin-top:115px;padding:10px}.bmi-values{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-pack:justify;-ms-flex-pack:justify;justify-content:space-between;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.bmi-values h2{font-weight:700}.bmi-values .goal,.bmi-values .mission,.bmi-values .vision{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;padding:0 30px;text-align:center}.bmi-values .goal .icon,.bmi-values .mission .icon,.bmi-values .vision .icon{display:none}.row .container{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column}.row .container .content{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%}.row .container .content img{margin-bottom:30px}.row .container .text{-webkit-box-flex:1;-ms-flex:1 1 auto;flex:1 1 auto;padding:20px 10px 0;background:#f5f5f5;margin-top:30px}.row .container .text h5{font-size:20px}.row .container .text div{-ms-flex-item-align:center;align-self:center}.row-reverse .container{-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-ms-flex-wrap:wrap;flex-wrap:wrap}.row-reverse .container .content{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%}.row-reverse .container .text{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%;padding:20px 10px 0}.row-reverse .container .text h5{font-size:20px}.row-reverse .container .text div{-ms-flex-item-align:center;align-self:center}}@media (max-width: 480px){.bmi-header .logo{max-width:70%}.bmi-header .bmi-nav ul{-ms-flex-wrap:wrap;flex-wrap:wrap;-webkit-box-pack:start;-ms-flex-pack:start;justify-content:flex-start;margin-top:0;margin-bottom:0}.bmi-header .bmi-nav ul li{-webkit-box-flex:1;-ms-flex:1 1 100%;flex:1 1 100%}.bmi-header .bmi-nav ul li a{padding:6px 0}.bmi-header .bmi-nav ul li a:before{display:none}}
+/*"index.html"- End*/
